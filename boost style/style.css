@@ -1,0 +1,143 @@
+body{
+    background-image: url(../boost/2.jpg);
+    background-size: cover;
+    background-color: aqua;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto",sans-serif;
+      }
+a{ text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 15%;
+    background-color:rgba(0, green,0,0);
+    color: white;
+}
+.logo{
+    font-size: 25px;
+    font-style: italic;
+    text-transform:lowercase;
+    letter-spacing: 1px;
+    color: rgb(232, 14, 17);
+    font-weight:bold;
+}
+.nav{
+
+    background: #13de2e;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    padding: 13px 35px;
+    margin:10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #777;
+    cursor: pointer;
+    position: relative;
+
+}
+.info{
+    margin-left:8%;
+    margin-top: 15%;
+}
+.info h2{
+    font-size:40px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+.info p{
+    color:#606163 ;
+    line-height: 2px;
+}
+.img-box{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0%;
+    right: 100px;
+}
+.img-box img{
+    height:100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    top: 10px;
+    transform: translateX(-25%);
+}
+
+H4{
+    color: rgb(211, 136, 31);
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #04AA6D;
+    color:white;
+  }
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+  }
+.container{
+    position: relative;
+    height: 100px;
+    width: 600px;
+    align-items: center;
+
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
+.heading{
+    font-size: 2.5ch;
+    padding-top: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 50px;
+    font-size: 25px;
+    
+}
+h4{
+    font-size: 25px;
+    text-align: center;
+    padding: 1%;
+}
+.image1{
+    width: 20px;
+    height: 100px;
+    margin:0;
+}
+.image1 img{
+    width: 200px;
+    height:200px;
+    margin:1px;
+    float: left;
+}
