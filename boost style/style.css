@@ -1,86 +1,56 @@
-body{
-    background-image: url(../boost/2.jpg);
-    background-size: cover;
-    background-color: aqua;
-    background-position: center;
-    box-sizing: border-box;
-    font-family: sans-serif;
 
-}
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: orange;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:"Roboto",sans-serif;
-      }
-a{ text-decoration: none;
+    font-family:"Poppins",sans-serif;
+    width: 100%;
 }
-
-header{
+section{
+    min-height: 100vh;
     display: flex;
-    justify-content: space-between;
-    padding: 20px 15%;
-    background-color:rgba(0, green,0,0);
-    color: white;
+    justify-content: center;
+    align-items: center;
 }
-.logo{
-    font-size: 25px;
-    font-style: italic;
-    text-transform:lowercase;
-    letter-spacing: 1px;
-    color: rgb(232, 14, 17);
-    font-weight:bold;
+/* -------------Navbar--------------- */
+.bold{
+    font-size: 10px;
 }
-.nav{
-
-    background: #13de2e;
-    border-radius: 50px;
-    padding: 10px;
-    box-shadow: 0 25px 20px -20px rgba(0,0,0,0.4);
+li{
+    padding: 5px;
 }
-.nav-links li{
-    list-style: none;
-    display: inline-block;
-    padding: 13px 35px;
-    margin:10px;
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 2px solid rgb(46, 181, 118);
+    transition:1s;
+}
+ 
+/* Home */
+span{
+    color: rgb(225, 67, 14);
+}
+p{
     font-size: 18px;
-    font-weight: 500;
-    color: #777;
-    cursor: pointer;
-    position: relative;
-
-}
-.info{
-    margin-left:8%;
-    margin-top: 15%;
-}
-.info h2{
-    font-size:40px;
-    color: #212121;
-    margin-bottom: 20px;
-}
-.info p{
-    color:#606163 ;
-    line-height: 2px;
-}
-.img-box{
-    width: 45%;
-    height: 80%;
-    position: absolute;
-    bottom: 0%;
-    right: 100px;
-}
-.img-box img{
-    height:100%;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    top: 10px;
-    transform: translateX(-25%);
 }
 
-H4{
-    color: rgb(211, 136, 31);
+/* About */
+#About img{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50px;    
+}
+
+/* skills */
+#card img{
+    height: 200px;
+    
 }
 table {
     border-collapse: collapse;
@@ -92,7 +62,7 @@ table {
     padding: 8px;
   }
   
-  tr:nth-child(even){background-color: #f2f2f2}
+  tr:nth-child(even){background-color: #69eb85}
   
   th {
     background-color: #04AA6D;
@@ -130,14 +100,4 @@ h4{
     text-align: center;
     padding: 1%;
 }
-.image1{
-    width: 20px;
-    height: 100px;
-    margin:0;
-}
-.image1 img{
-    width: 200px;
-    height:200px;
-    margin:1px;
-    float: left;
-}
+
